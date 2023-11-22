@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+    </style>
+
+
+</head>
+<body>
+<div class="container-fluid">
+<!-- fila 1 slider -->
+<div class="row">
+    <div class="col-md-12">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner ">
+          <div class="carousel-item active ">
+            <img src="img/auto1.jpg" alt="Los Angeles">
+          </div>
+          <div class="carousel-item">
+            <img src="img/auto2.jpg" alt="Chicago">
+          </div>
+          <div class="carousel-item">
+            <img src="img/auto3.jpg" alt="New York">
+          </div>
+          <div class="carousel-item">
+            <img src="img/auto4.jpg" alt="New York">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div>
+    </div>
+</div>
+<!-- fila 2 menu -->
+<div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <a class="navbar-brand" href="index1.html">ULEAM</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="reglamentos.html">Reglamentos<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="actas.html">Actas</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Estudiantes
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="matricula.html">Matricula</a>
+                <a class="dropdown-item" href="aula.html">Aula Virtual</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="reportese.html">Reportes</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Docentes
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="notas.html">Notas</a>
+                <a class="dropdown-item" href="repositorio.html">Repositorio</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="reportesd.html">Reportes</a>
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+
+      </nav>
+    </div>
+</div>
+<!-- fila 3 txt img txt -->
+<div class="row">
+    <div class="col-md-4">
+      <p class="text-justify">
+        La vocación de Bolívar era el ejercicio de las armas. En enero de 1797, ingresó como cadete en el Batallón de Milicias de Blancos de los Valles de Aragua, del cual había sido Coronel años atrás su propio padre. No tenía aún 14 años cumplidos. En julio del año siguiente, cuando fue ascendido a Subteniente, se anotaba en su hoja de servicios: Valor: conocido; aplicación: sobresaliente. El adiestramiento práctico en los deberes militares lo combinaba Bolívar con el aprendizaje teórico de materias consideradas entonces la base de la formación castrense: las matemáticas, el dibujo topográfico, la física, etc., que aprendió en la Academia establecida en la propia casa de Bolívar por el sabio Capuchino fray Francisco de Andújar desde mediados de 1798, y a la cual asistían también varios amigos de Simón.
+      </p>
+    </div>
+    <div class="col-md-4">
+     <!-- 16:9 aspect ratio -->
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pELZa6Q_3C8?si=q8Gc4wXPuIxtArr7"></iframe>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <p class="text-justify">
+        La vocación de Bolívar era el ejercicio de las armas. En enero de 1797, ingresó como cadete en el Batallón de Milicias de Blancos de los Valles de Aragua, del cual había sido Coronel años atrás su propio padre. No tenía aún 14 años cumplidos. En julio del año siguiente, cuando fue ascendido a Subteniente, se anotaba en su hoja de servicios: Valor: conocido; aplicación: sobresaliente. El adiestramiento práctico en los deberes militares lo combinaba Bolívar con el aprendizaje teórico de materias consideradas entonces la base de la formación castrense: las matemáticas, el dibujo topográfico, la física, etc., que aprendió en la Academia establecida en la propia casa de Bolívar por el sabio Capuchino fray Francisco de Andújar desde mediados de 1798, y a la cual asistían también varios amigos de Simón.
+      </p>
+    </div>
+</div>
+<!-- fila 4 img tab -->
+<div class="row">
+    <div class="col-md-6">
+      <img src="img/auto1.jpg" class="rounded img-fluid" alt="Cinque Terre">
+    </div>
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+</div>
+<!-- fila tab -->
+<div class="row">
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-3">
+
+    </div>
+</div>
+
+</div>
+</body>
+</html>
